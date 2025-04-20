@@ -1,0 +1,84 @@
+body {
+    font-family: "Segoe UI", sans-serif;
+    margin: 0;
+    background: #0f1117;
+    color: #f0f0f0;
+  }
+  
+  .container {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #00ffd5;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .panel {
+    background: #1b1e2b;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 255, 213, 0.1);
+  }
+  
+  .gauges {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+  
+  .gauge label {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+    color: #ccc;
+  }
+  
+  .gauge div {
+    font-size: 28px;
+    font-weight: bold;
+    color: #00ffd5;
+  }
+  
+  .flow-diagram {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .source, .destination {
+    font-size: 18px;
+    margin: 5px;
+  }
+  
+  .arrows {
+    font-size: 24px;
+    color: #00ffd5;
+  }
+  
+  #decision-bubble {
+    margin-top: 15px;
+    font-size: 16px;
+    text-align: center;
+    background: #00ffd520;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+#c{
+	position: absolute;
+  border: #0f1117 solid;
+	top: 175px;
+	left: 750px;
+  height: 200px;
+  width: 200px;
+}
